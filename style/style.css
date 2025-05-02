@@ -76,3 +76,10 @@ body {
     margin-top: auto;
 }
 
+.header__image{
+    position:absolute;
+    right:80px;
+    bottom:80px;
+    width:646px;
+    height:568px;
+}
