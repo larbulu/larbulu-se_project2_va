@@ -67,7 +67,7 @@ body {
 .header__description{
     font-family: 'Noto serif','times new roman', serif;
     font-size: 20px;
-    line-height: 30px
+    line-height: 30px;
     max-width: 683px;
     margin: 0 0 30px;
 }
