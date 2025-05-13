@@ -17,3 +17,15 @@
     display:flex;
     justify-content: space-between;
 }
+
+.nav__links {
+    display:flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__link {
+    
+}
