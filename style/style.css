@@ -1,85 +1,19 @@
-body {
-    margin:0;
-    font-family:'inter', sans-serif, arial;
-    color:#000000;
-    background-color: #ffffff;
-}
-
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 80px;
-    background-color: #ffffff;
-    position: relative;
-}
-.nav__logo{
-    width:105px;
-    height:39px;
-}
-
-.nav__links{
-    list-style: none;
-    display:flex;
-    gap:28px;
-    margin:auto;
-    padding:0;
-}
-
-.nav__links a:hover{
-    text-decoration: none;
-    color: #000000;
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Inter", "Arial", sans-serif;
     font-size: 16px;
-    font-weight: 500;
     line-height: 20px;
-    transition: all 0.3s ease;
 }
 
-.header{
-    background-image: url("images/background_header.svg") center/cover no-repeat;
-    height:800 px;
-    display: flex;
-    flex-direction: column;
+.header {
+    padding: 30px 80px 40px;
+    background-color: #fff;
+    background-image: url(../images/background_header.svg);
+}
+
+.nav {
+    display:flex;
     justify-content: space-between;
-    padding: 124px 80px 80px;
-    position: relative;
-}
-
-.header__span-accent .header__span-accent--blue{
-    color: #3F96F3;
-    font-family: 'noto sherif', 'times new roman', serif;
-    font-style:italic;
-    font-size: 20px;
-    display:block;
-    margin-bottom: 5px;
-}
-
-.header__title{
-    font-family: 'inter', sans-serif, arial;
-    font-size: 60px;
-    font-weight: 500;
-    line-height: 72px;
-    letter-spacing: -0.6px;
-    max-width: 729px;
-    margin: 0 0 28px;
-}
-
-.header__description{
-    font-family: 'Noto serif','times new roman', serif;
-    font-size: 20px;
-    line-height: 30px;
-    max-width: 683px;
-    margin: 0 0 30px;
-}
-
-.header__footer{
-    margin-top: auto;
-}
-
-.header__image{
-    position:absolute;
-    right:80px;
-    bottom:80px;
-    width:646px;
-    height:568px;
 }
