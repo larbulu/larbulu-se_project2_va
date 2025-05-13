@@ -13,6 +13,15 @@
     background-image: url(../images/background_header.svg);
 }
 
+.header__image {
+    postition: absolute;
+    top: 124px;
+    right: 5px;
+    width: 646px;
+    height:568px;
+}
+
+
 .nav {
     display:flex;
     justify-content: space-between;
@@ -27,5 +36,5 @@
 }
 
 .nav__link {
-    
+    /* TODO: REMOVE THE UNDERLINE,CHANGE COLOR */
 }
