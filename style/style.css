@@ -12,6 +12,17 @@
     background-color: #fff;
     background-image: url(../images/background_header.svg);
     position: relative;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title {
+    margin: 183px;
+}
+
+.header__description {
+    margin:28px 0 0;
 }
 
 .header__image {
@@ -22,6 +33,9 @@
     height:568px;
 }
 
+.header__footer {
+    margin-top: auto;
+}
 
 .nav {
     display:flex;
@@ -32,6 +46,7 @@
     width: 105px;
     height: 39px;
     position: relative;
+    left: -50px;
 }
 
 .nav__links {
