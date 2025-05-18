@@ -8,15 +8,12 @@
 }
 
 .header {
-    background-size: cover;
     padding: 30px 80px 40px;
-    background-color: #fff;
-    background-image: url(../images/background_header.svg);
+    background: center / cover no-repeat #fff url(../images/background_header.svg);
     position: relative;
     height: 800px;
     display: flex;
     flex-direction: column;
-    background-repeat: no-repeat;
 }
 
 .header__title {
