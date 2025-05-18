@@ -18,10 +18,12 @@
 
 .header__title {
     margin: 183px 0 0;
+    max-width:729px;
 }
 
 .header__description {
     margin:28px 0 0;
+    max-width:683px;
 }
 
 .header__image {
@@ -64,5 +66,10 @@
 }
 
 .nav__link {
-    /* TODO: REMOVE THE UNDERLINE,CHANGE COLOR */
+    font-family: "Inter";
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
