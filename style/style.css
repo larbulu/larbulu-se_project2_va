@@ -103,6 +103,7 @@
     padding: 100px 80px 215px;
     background-image: url(../images/background_recipes.svg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
