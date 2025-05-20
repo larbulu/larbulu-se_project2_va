@@ -100,12 +100,13 @@
 .recipes{
     color: #fff;
     background-color: #0a2750;
+    margin: 80px auto;
     padding: 100px 80px 215px;
+    max-width: 580px;
 }
 
 .recipes__title{
     margin: 0 0 24px;
-    max-width: 580px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -127,7 +128,6 @@
     display: flex;
     justify-content: center;
     gap: 100px;
-    margin: 0px 600px 215px;
     max-width: 480px;
     max-height: 273px;
     list-style: none;
