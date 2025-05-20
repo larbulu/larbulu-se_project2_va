@@ -125,7 +125,7 @@
 
 .recipes__videos {
     display: flex;
-    justify-content: center;
+    justify-content: space-between center;
     gap: 100px;
     max-width: 480px;
     max-height: 273px;
