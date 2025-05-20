@@ -126,8 +126,6 @@
 .recipes__videos {
     display: flex;
     justify-content: center;
-    max-width:480px;
-    max-height: 273px;
     gap: 100px;
     margin: 80px 0 215px;
     list-style: none;
