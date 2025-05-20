@@ -97,7 +97,7 @@
     text-decoration: none;
 }
 
-.receipes__videos {
+.recipes__videos {
     display: flex;
     justify-content: center;
     gap: 100px;
