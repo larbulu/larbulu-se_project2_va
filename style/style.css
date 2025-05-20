@@ -115,4 +115,12 @@
     display: flex;
     justify-content: center;
     gap: 100px;
+    list-style: none;
+    margin: 0;
+}
+
+.recipes__video-caption{
+    display: flex;
+    justify-content: space-between;
+    
 }
