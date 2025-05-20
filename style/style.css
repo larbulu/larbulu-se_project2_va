@@ -96,3 +96,9 @@
     line-height: 20px;
     text-decoration: none;
 }
+
+.receipes__videos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
