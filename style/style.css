@@ -97,6 +97,11 @@
     text-decoration: none;
 }
 
+.recipes{
+    color: #fff;
+    background-color: #0a2750;
+}
+
 .recipes__videos {
     display: flex;
     justify-content: center;
