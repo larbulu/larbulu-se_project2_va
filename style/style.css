@@ -101,11 +101,11 @@
     color: #fff;
     background-color: #0a2750;
     padding: 100px 80px 215px;
-    max-width: 580px;
 }
 
 .recipes__title{
     margin: 0 0 24px;
+    max-width: 580px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
